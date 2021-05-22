@@ -13,61 +13,60 @@
 <body>
     <header>  
   
-        <nav class="navbar navbar-expand-lg navbar-light bg-light col-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    
+        <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img src="../imagenes/logoRuca.png" width="60" height="60" alt=""></a>
-          <div class="container">
-          
-          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto justify-content-center">
-              <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Productos
-                </a>
-                <div class="dropdown-menu btn-group dropright" aria-labelledby="navbarDropdown">
-                  <button type="button" class="btn btn-secondary">
-                    Textil
-                  </button>
-                  <button type="button" class="btn btn-secondary dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="sr-only">Textil</span>
-                  </button>
-                  <div class="dropdown-menu show" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(151px, 0px, 0px);" x-placement="right-start">
-                    <a class="dropdown-item " href="manteles.html">Manteles</a>
-                    <a class="dropdown-item " href="servilletas.html">Servilletas</a>
-                    <a class="dropdown-item " href="caminos.html">Caminos</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a>
+                </li>
+    
+                <div class="row">
+                  <div class="dropdown">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="productos.html" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Productos
+                      </a>
+                      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                          <a  class="dropdown-item" tabindex="-1" href="textil.html">Textil</a>
+                            <ul class="dropdown-menu">
+                              <li class="dropdown-item"><a href="manteles.html">Manteles</a></li>
+                              <li class="dropdown-item"><a href="servilletas.html">Servilletas</a></li>
+                              <li class="dropdown-item"><a href="caminos.html">Caminos</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a  class="dropdown-item" tabindex="-1" href="bazar.html">Bazar</a>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="copas.html">Copas</a></li>
+                            <li class="dropdown-item"><a href="bandejas.html">Bandejas</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
                   </div>
                 </div>
-                <div class="dropdown-menu btn-group dropright show" aria-labelledby="navbarDropdown">
-                    <button type="button" class="btn btn-secondary">
-                      Bazar
-                    </button>
-                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <span class="sr-only">Bazar</span>
-                    </button>
-                    <div class="dropdown-menu  show" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(151px, 0px, 0px);" x-placement="right-start">
-                      <a class="dropdown-item " href="bandejas.html">Bandejas</a>
-                      <a class="dropdown-item " href="copas.html">Copas</a>
-                    </div>
-                </div>
-                  <!--<a class="dropdown-item" href="./pages/bazar.html">Bazar</a>-->
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactos.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="carrito.html">Carrito</a>
-              </li>
-            </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactos.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito</a>
+                  </li>
+             </ul>
           </div>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-          </div>
-        </nav>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+      
         <div class="container">
         <div id="carouselExampleFade"  class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
