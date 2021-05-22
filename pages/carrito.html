@@ -4,48 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Decoracion y bazar para la mesa y tu cocina. Haz de tu mesa el mejor lugar de casa">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dc8710bdd5.js" crossorigin="anonymous"></script>
     <title>Tu Compra</title>
     <link rel="stylesheet" href="../css/estilos.css">
    
 </head>
 <body>
     <header>  
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    
+        <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img src="../imagenes/logoRuca.png" width="60" height="60" alt=""></a>
-          <div class="container">
-          <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>-->
-          
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto justify-content-center">
-              <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Productos
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="../pages/textil.html">Textil</a>
-                  <a class="dropdown-item" href="../pages/bazar.html">Bazar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contactos.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/carrito.html">Carrito</a>
-              </li>
-            </ul>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a>
+                </li>
+    
+                <div class="row">
+                  <div class="dropdown">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="productos.html" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Productos
+                      </a>
+                      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                          <a  class="dropdown-item" tabindex="-1" href="textil.html">Textil</a>
+                            <ul class="dropdown-menu">
+                              <li class="dropdown-item"><a href="manteles.html">Manteles</a></li>
+                              <li class="dropdown-item"><a href="servilletas.html">Servilletas</a></li>
+                              <li class="dropdown-item"><a href="caminos.html">Caminos</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a  class="dropdown-item" tabindex="-1" href="bazar.html">Bazar</a>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="copas.html">Copas</a></li>
+                            <li class="dropdown-item"><a href="bandejas.html">Bandejas</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </div>
+                </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactos.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito</a>
+                  </li>
+             </ul>
           </div>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-          </div>
-        </nav>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
         <div class="container">
         <div id="carouselExampleFade"  class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
@@ -71,98 +92,157 @@
       </div>
       </header>
 
+      <main class="main">
+        <div class="container my-5">
 
-      <div class="container">
-        <div class="row mb-3">
-            <div class="col-sm-6 col-lg-8 themed-grid-col">.col-sm-6 .col-lg-8</div>
-            <div class="col-6 col-lg-4 themed-grid-col">.col-6 .col-lg-4</div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</div>
-            <div class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</div>
-            <div class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</div>
-          </div>
-
+       
+        <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col">Valor unitario</th>
+                <th scope="col">Sub-Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>mantel tusor</td>
+                <td>$$$$$</td>
+                <td>$$$11$$</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>Copas Vino</td>
+                <td>$$$$</td>
+                <td>$$$$555&&&</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>servilletas</td>
+                <td>$200</td>
+                <td>$600</td>
+              </tr>
+            </tbody>
+        </table>
       </div>
+      </main>
 
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; RucaDesign Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+      <div class="container my-5">
+        <!-- Footer -->
+        <footer
+                class="text-center text-lg-center text-grey"
+                style="background-color: rgba(0, 0, 0, 0.2)"
+                >
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Ruca Design
+                  </h6>
+                  <p>
+                    Somos una compañia Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti ab quasi quaerat molestiae!      
+                  </p>
+                </div>
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">contactos</h6>
+                  <p><i class="fas fa-home mr-3"></i> Direccion xxxx 520, Cordoba CP. 5000, ARG</p>
+                  <p><i class="fas fa-envelope mr-3"></i> Ruca.lovers@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 54 234 567 88</p>
+                  <p><i class="fas fa-print mr-3"></i> + 54 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Siguenos</h6>
+      
+                  <!-- Facebook -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #3b5998"
+                     href="direccion facebook"
+                     role="button"
+                     ><i class="fab fa-facebook-f"></i
+                    ></a>
+      
+                  <!-- Twitter -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #55acee"
+                     href="enlace twitter"
+                     role="button"
+                     ><i class="fab fa-twitter"></i
+                    ></a>
+      
+                  <!-- Google -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #dd4b39"
+                     href="enlace google"
+                     role="button"
+                     ><i class="fab fa-google"></i
+                    ></a>
+      
+                  <!-- Instagram -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #ac2bac"
+                     href="enlace instagram"
+                     role="button"
+                     ><i class="fab fa-instagram"></i
+                    ></a>
+      
+                  <!-- Linkedin -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #0082ca"
+                     href="enlace Linkedin"
+                     role="button"
+                     ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  <!-- Github -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #333333"
+                     href="enlace Github"
+                     role="button"
+                     ><i class="fab fa-github"></i
+                    ></a>
+                </div>
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2020 Copyright: 
+    
+            <a class="text-grey" href="#"
+               >Ruca Home & Design</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--<header>
-        <img class="centrado" width="200" height="200" src="../imagenes/logoRuca.png" alt="logo Proyecto">insertado de logo
-        <hr>
-        <h2>MENU</h2>
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./productos.html">Productos</a>
-                    <ul>
-                        <li><a href="./textil.html">Textil</a>
-                            <ul>
-                                <li><a href="./manteles.html">Manteles</a></li>
-                                <li><a href="./servilletas.html">Servilletas</a></li>
-                                <li><a href="./caminos.html">Caminos</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="./bazar.html">Bazar</a>
-                            <ul>
-                                <li><a href="./copas.html">Copas</a></li>
-                                <li><a href="./bandejas.html">Bandejas</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="./contactos.html">Contacto</a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
-            </ul>
-        </nav>
-    </header>-->
-<hr>
-<main>
-    <table class="tabla">
-        <tr>
-            <th><strong>Cantidad</strong></th>
-            <th><strong>Producto</strong></th>
-            <th><strong>Monto Total</strong></th>
-        </tr>
-        <tr>
-            <td>nro cantidad</td>
-            <td>descrpcion productos</td>
-            <td>valor a pagar</td>
-        </tr>
-
-
-    </table>
-</main>
-<hr>
-<footer>
-    <!--<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas enim perferendis soluta facere totam, iusto ut illum labore ipsa, corporis dolores numquam cumque quibusdam. Atque quis repellat architecto assumenda recusandae.</p>-->
-    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.586451044839!2d-64.19153438515788!3d-31.42551820383762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a288c835e79f%3A0x9fec6b2f91fb428e!2sObispo%20Trejo%20825%2C%20X5000IYQ%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1617376412363!5m2!1ses!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <ul id="colum-der"">
-      <li>facebook</li>
-      <li>instagram</li>
-      <li>linkedin</li>
-    </ul>
-</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>   
