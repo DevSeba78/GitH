@@ -88,7 +88,7 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
 }
 /*TERMINA BARRA DE NAVEGACION*/
 /*clases de centrado y conf de tablas*/
-.centrado{
+/*.centrado{
     display:block;
     margin: auto;
     background-color: none;
@@ -101,13 +101,13 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
       background-color: coral;
       opacity: 50%;
       /*width: 43%;*/
-      height: auto;
+     /* height: auto;
       font-size: 14pt;
       font-family: Arial, Helvetica, sans-serif;
      /* color: black;*/
   }
 /*CONFIG AREA CENTRAL MAIN*/
-#fila{
+/*#fila{
     width: 100%;
     max-height: 750px;
     display: flex;
@@ -116,13 +116,13 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
     
 }
 #colum-izq{
-    /*width: 25%;*/
+    /*width: 25%;
     height: auto;
-    /*float: left;*/
+    /*float: left;
     margin: 5px;
     padding: 5px;
     border: 2px solid olive;
-    /*overflow: hidden;*/
+    /*overflow: hidden;
     text-align: center;
     font-size: 16pt;
     display: flex;
@@ -132,9 +132,9 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
     
 }
 #colum-centro{
-    /*width: 43%;*/
+    /*width: 43%;
     height: auto;
-   /* float: center;*/
+   /* float: center;
     margin: 5px;
     padding: 5px;
     border: 2px solid brown;
@@ -145,9 +145,9 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
     flex: 2 1 auto;
 }
 #colum-der{
-    /*width: 25%;*/
+    /*width: 25%;
     height: auto;
-    /*float: right;*/
+    /*float: right;
     margin: 5px;
     padding: 5px;
     border: 2px solid cadetblue;
@@ -158,7 +158,7 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
     flex-direction: column;
     overflow: hidden;
 }
-/*PAGE SERVILLETAS*/
+/*PAGE SERVILLETAS
 .gral{
     background-color:#f8f5f1;
     display: flex;
@@ -166,7 +166,7 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
     flex-wrap: nowrap;
 }
     .cabeza{
-        background: url(./imagenes/locales-decoracion-cordoba.jpg);/*imagen de fondo*/
+        background: url(./imagenes/locales-decoracion-cordoba.jpg);/*imagen de fondo
         background-position: center ;
         background-attachment: contain;
         background-size: cover;
@@ -217,21 +217,21 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
         justify-content: center;
         font-size: 20pt;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }*/
+    }
     .seccion{
         background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
-        /*background-color: #bdc7c9;*/
+        /*background-color: #bdc7c9;
         display: flex;
         max-height: 535px;
     }
         .articulos{
-         /*background-color: #ffd3b4;  */
+         /*background-color: #ffd3b4;  
          flex: 2 1 auto; 
          display: flex;
          flex-flow: row wrap;
          }
             .descripcion{
-              /*  background-color: none;*/
+              /*  background-color: none;
                 display: flex;
                 flex: 1 1 40%;
                 font-size: 14pt;
@@ -244,7 +244,7 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
                 }
       
         .lateral{
-            /*background-color: #ffb037;*/
+            /*background-color: #ffb037;
             flex: 1 1 auto;
             display: flex;
             flex-direction: column;
@@ -252,13 +252,13 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
             
             }
             .ofertas{
-                /*background-color: #e2703a;*/
+                /*background-color: #e2703a;
                 font-size: 14pt;
                 font-family: 'Times New Roman', Times, serif;
             }
 
     .pie-pagina{
-       /* background-color: #d2e69c;*/
+       /* background-color: #d2e69c;
         display: flex;
         justify-content: space-evenly;
     }
@@ -266,7 +266,7 @@ nav li:hover > ul> li{/*solo se muestra para cuando se pase el mouse por encima*
         background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
     }*/
     
-/*GRID PAGES TEXTIL*/
+/*GRID PAGES TEXTIL
 .border{
     border: 1px solid black;
 }
