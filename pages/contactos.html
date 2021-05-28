@@ -14,39 +14,60 @@
 </head>
 <body>
     <header>  
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    
+        <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img src="../imagenes/logoRuca.png" width="60" height="60" alt=""></a>
-          <div class="container">
-         
-          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto justify-content-center">
-              <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Productos
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="../pages/textil.html">Textil</a>
-                  <a class="dropdown-item" href="../pages/bazar.html">Bazar</a>
-                </div> 
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contactos.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/carrito.html">Carrito</a>
-              </li>
-            </ul>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a>
+                </li>
+    
+                <div class="row">
+                  <div class="dropdown">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="productos.html" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Productos
+                      </a>
+                      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                          <a  class="dropdown-item" tabindex="-1" href="textil.html">Textil</a>
+                            <ul class="dropdown-menu">
+                              <li class="dropdown-item"><a href="manteles.html">Manteles</a></li>
+                              <li class="dropdown-item"><a href="servilletas.html">Servilletas</a></li>
+                              <li class="dropdown-item"><a href="caminos.html">Caminos</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a  class="dropdown-item" tabindex="-1" href="bazar.html">Bazar</a>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="copas.html">Copas</a></li>
+                            <li class="dropdown-item"><a href="bandejas.html">Bandejas</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </div>
+                </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactos.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito</a>
+                  </li>
+             </ul>
           </div>
-            <form class="d-flex">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-          </div>
-        </nav>
+          <form class="d-flex">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
         <div class="container">
         <div id="carouselExampleFade"  class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
@@ -175,7 +196,42 @@
                 <p><i class="fas fa-print mr-3"></i> + 54 351-698xxxx</p>
               </div>
               <!-- Grid column -->
-    
+              <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Formas de Pago</h6>
+              
+              <!--VISA-->
+              <a  class="btn btn-primary btn-floating m-1" 
+              style="background-color: #0082ca;"
+              href=""
+              role="button">
+              <i class="fab fa-cc-visa"></i></a>
+              
+              <!--MASTERCARD-->
+              <a  class="btn btn-primary btn-floating m-1" 
+              style="background-color: #dd8724;"
+              href=""
+              role="button">
+              <i class="fab fa-cc-mastercard"></i></a>
+              
+              <!--AMERICAN EXPRESS-->
+              <a  class="btn btn-primary btn-floating m-1" 
+              style="background-color: #dd8724;"
+              href=""
+              role="button">
+              <i class="fab fa-cc-amex"></i></a>
+
+              <!--PAY PAL-->
+              <a  class="btn btn-primary btn-floating m-1" 
+              style="background-color: #858280;"
+              href=""
+              role="button">
+              <i class="fab fa-paypal"></i></a>
+
+              <P><strong> HASTA 12 PAGOS S/INTERES</strong></P>
+            </div>
               <!-- Grid column -->
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">Seguinos</h6>
