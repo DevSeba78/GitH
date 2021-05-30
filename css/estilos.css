@@ -31,7 +31,12 @@ table, th, td {
     border: 1px solid #dee2e6;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
+div img{
+    transition: all;
+}
+div img:hover{
+    transform: translate(10px, 10px);
+}
 
 /* BARRA DE NAVEGACION*/
 /*ESTILOS GRALES*/
