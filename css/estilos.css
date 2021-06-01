@@ -13,6 +13,12 @@ h2{
     display: flex;
     justify-content: center;
 }
+.trans{
+    transform: none;
+}
+.trans:hover{
+    transform: translate(10px, 10px);
+}
 
 table, th, td {
     border: 1px solid black;
@@ -31,7 +37,7 @@ table, th, td {
     border: 1px solid #dee2e6;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-div img{
+/*div img{
     transition: all;
 }
 div img:hover{
