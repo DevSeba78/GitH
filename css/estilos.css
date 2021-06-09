@@ -19,6 +19,15 @@ h2{
 .trans:hover{
     transform: translate(10px, 10px);
 }
+.zoom{
+    transition: transform .5s;
+
+}
+.zoom:hover{
+    transform:scale(1.5);
+    padding: auto;
+    margin: auto;
+}
 
 table, th, td {
     border: 1px solid black;
